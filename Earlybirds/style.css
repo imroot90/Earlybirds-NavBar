@@ -1,0 +1,126 @@
+:root {
+    --padding: 18px;
+    --margin: 18px;
+
+}
+
+/* width 1020~1200 */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    /* background-color: rgb(2, 2, 2); */
+    
+}
+
+header {
+    /* background-color: aliceblue; */
+    /* background-image: url("../navbar_01/ppp.jpg") no-repeat;
+    width: 100%;
+    height: 100%; */
+    padding: var(--margin);
+    background-color: rgb(3, 1, 131);
+    background-image: url('ppp.jpg');
+    background-size: cover;
+
+
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0; 
+
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+header .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+
+
+    width: 100%;
+    
+    /* background-color: rgb(255, 0, 191); */
+}
+
+
+nav {
+    /* background-color: rgb(255, 11, 214); */
+    /* width: 100%; */
+    height: 50px;
+    margin: 0 60px;
+    position: relative;
+    
+ 
+
+}
+nav .menubar {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+nav .menubar .menu {
+    list-style: none;
+    width: 100vw;
+
+    border: 2px solid rgba(255, 255, 255, 0.726);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(91, 0, 236);
+}
+
+nav .menubar .menu:hover {
+    background-color: rgb(70, 1, 150);
+    color: rgb(255, 255, 255);
+
+    border-bottom: solid 3px;
+    border-color: rgb(218, 3, 200);
+}
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 0px;
+    padding: 0;
+}
+
+section .company__logo {
+    display: flex;
+    
+
+
+}
+.company {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
